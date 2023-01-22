@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <!-- ハンバーガーメニューを使うためにviewportがいる -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="サイト運営者" />
+    <meta name="description"  content="ページの説明" />
+    <meta name="keywords" content="キーワード1,キーワード2,キーワード3" />
+
+    <title>Document</title>
+     <!-- ハンバーガーメニューに使うボタンにマテリアルアイコンがいる -->
+     
+     <link rel="stylesheet" href="css/styles.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Tapestry&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- モバイルメニュー -->
+    <div id="global_container">
+      <header>
+        <h1>Natural Dinning </h1>
+        <div class="pc-menu">
+          <nav>
+            <ul>
+              <li><a href="#">ホーム</a></li>
+              <li><a href="#">コンセプト</a></li>
+              <li><a href="#">メニュー</a></li>
+              <li><a href="#">店舗情報・アクセス</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="mobile-menu__btn">
+          <span class="material-icons" id="open">menu</span>
+      </div>
+    </header> 
+
+      <div id="container">
+
+        <div id="mobile-menu__cover"></div>
+        
+        <div class="mv">
+          <ul id="mv_ul">
+            <li><img src="img/pasta.jpg" alt=""></li>
+            <li><img src="img/drink_s.jpg" alt=""></li>
+            <li><img src="img/pizza.jpg" alt=""></li>
+            <li><img src="img/table_s.jpg" alt=""></li>
+        
+          </ul>
+        
+          <botton id="prev">&laquo;</botton>
+          <botton id="next">&raquo;</botton>
+        </div>
+        
+        <main>
+          <article>
+            <section>
+              <h2>農家直送のおいしい有機野菜のカフェごはん</h2>
+              <p>農家直送のおいしい有機野菜をふんだんに使ったカフェごはんを提供しています。<br>
+                お近くにお越しphotoの際は、ぜひお立ち寄りください。</p>
+            </section>
+            <section>
+              <h2>今月のおすすめメニュー</h2>
+              <div class="lr">
+              <ul>
+                <li>日替わりパスタ　1,000円</li>
+                <li>日替わりスイーツ　600円</li>
+              </ul>
+                <img class="photo" src="img/cake.jpg" alt="">
+              </div>
+              
+            </section>
+  
+          </article>
+          <article>
+            <section>
+              <h2>ドリンク人気ランキング</h2>
+              <ol>
+                <li>ベリーベリースムージー　600円</li>
+                <li>オーガニックレモンティー　700円</li>
+                <li>フローズンアイスカフェオレ　500円</li>
+              </ol>
+              <p><a href="">ドリンクメニューを見る</a></p>
+            </section>
+  
+            <section>
+              <h2>ニュース</h2>
+  <dl>
+    <dt>2021年08月20日</dt>
+    <dd>今月の月替わりスーツのご紹介</dd>
+    <dt>2021年08月12日</dt>
+    <dd>デザインが変わりました♪</dd>
+    <dt>2021年07月20日</dt>
+    <dd>1周年キャンペーンのお知らせ</dd>
+  </dl>
+            </section>
+          </article>
+          <aside>
+            <h2>ここにはタイトルが入ります</h2>
+            <ul>
+              <li>リスト項目1</li>
+              <li>リスト項目2</li>
+              <li>リスト項目3</li>
+            </ul>
+          </aside>
+        </main>
+        <footer>
+            <small>&copy 2020 Natural Dinning </small>
+        </footer>
+      </div>
+
+      <nav class="mobile-menu">
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">Concept</span>
+              <span class="sub-title">Natural Dinningについて</span>
+          </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">Menu</span>
+              <span class="sub-title">フード＆ドリンクメニュー</span>
+          </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">Access</span>
+              <span class="sub-title">店舗情報・アクセス</span>
+          </a>
+          </li>
+        </ul>
+      </nav>
+   
+
+
+    </div>
+      
+
+
+
+
+    <!-- <span class="material-icons">close</span> -->
+    
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
